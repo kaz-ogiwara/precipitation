@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta property="og:url" content="https://toyokeizai.net/sp/visual/tko/precipitation/" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="グラフィックで振り返る 2019年の台風・豪雨災害" />
+		<meta property="og:description" content="全国の気象観測所における降水量データをグラフィック化。今年の主な台風・豪雨被害を振り返るデータビジュアルを制作しました。" />
+		<meta property="og:image" content="https://toyokeizai.net/sp/visual/tko/precipitation/img/image_1200_630.png" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css"/>
+		<title>グラフィックで振り返る 2019年の台風・豪雨災害</title>
+  </head>
+  <body>
+    <div id="container">
+			<div id="cover-block">
+        <div id="cover-filter"></div>
+        <div id="cover-inner">
+          <img id="img-logo" src="img/logo-tko-white.png" />
+  				<h1><span>グラフィックで振り返る </span><span>2019年の台風・豪雨災害</span></h1>
+  				<h4>全国の気象観測所における降水量データをグラフィック化。今年の主な台風・豪雨被害を振り返るデータビジュアルを制作しました。</h4>
+          <br />
+          <h5>制作：<a href="https://toyokeizai.net/list/author/%E8%8D%BB%E5%8E%9F_%E5%92%8C%E6%A8%B9" target="_blank">荻原 和樹</a>（東洋経済オンライン編集部）</h5>
+  				<h5>2019年12月30日</h5>
+          <button id="show-map">グラフィックを見る</button>
+          <p><a href="https://toyokeizai.net/articles/-/319322" target="_blank">解説記事はこちら</a></p>
+        </div>
+			</div>
+			<div id="map-block">
+				<div id="no-support">
+					<div class="cover">
+						<p>たいへん申し訳ありませんが、ブラウザが対応しておりません。<br />Chrome、Edge、Firefoxなどのブラウザでアクセスをお願いいたします。</p>
+					</div>
+				</div>
+        <div id="title-block">グラフィックで振り返る<br />2019年の台風・豪雨災害</div>
+        <div id="description-modal">
+          <div class="cover"></div>
+          <div class="modal">
+            <button class="close"></button>
+            <div class="inner">
+              <section class="default">
+                <h4><span>グラフィックで振り返る </span><span>2019年の台風・豪雨災害</span></h4>
+                <p><img src="img/image_article_01.jpeg" /><div class="caption">台風19号通過直後の阿武隈川（本宮）地区（出典：国土交通省「令和元年(2019年)台風19号に関する情報」10月13日撮影）</div></p>
+                <p>2019年は台風19号の印象が強かった一方で、それ以外にも九州北部豪雨、千葉県豪雨など日本各地で台風・豪雨被害が相次ぎました。そこで東洋経済では、全国の気象観測所における降水量データをグラフィック化。今年の主な台風・豪雨被害を振り返るデータビジュアルを制作しました。</p>
+                <p>画面下部のボタンで日付を移動できます。右下の「 i 」マークはこの記事そのものに関する情報を表示し、特に降水量の多かった日になると「！」マークに変わり、その時期に起きた豪雨・台風災害の解説を読むことができます。</p>
+                <p>
+                  <h5>クリックで日付に移動：</h5>
+                  <div class="row-disaster" date="2019/07/03" lat="31.4" lon="130.9">
+                    <div>6月30日〜7月4日</div>
+                    <div>九州南部豪雨</div>
+                  </div>
+                  <div class="row-disaster" date="2019/08/15" lat="33.5" lon="133.2">
+                    <div>8月14日〜16日</div>
+                    <div>台風10号</div>
+                  </div>
+                  <div class="row-disaster" date="2019/08/28" lat="33.3" lon="130.2">
+                    <div>8月27日〜28日</div>
+                    <div>九州北部豪雨</div>
+                  </div>
+                  <div class="row-disaster" date="2019/09/09" lat="35.3" lon="140.2">
+                    <div>9月8日〜9日</div>
+                    <div>台風15号</div>
+                  </div>
+                  <div class="row-disaster" date="2019/10/12" lat="35.2" lon="139.1">
+                    <div>10月11日〜13日</div>
+                    <div>台風19号</div>
+                  </div>
+                  <div class="row-disaster" date="2019/10/25" lat="35.3" lon="140.2">
+                    <div>10月25日〜26日</div>
+                    <div>千葉県豪雨</div>
+                  </div>
+                </p>
+                <p>2019年に起こった豪雨や台風による災害はこれがすべてではありません。政府広報では災害に備えて防災気象情報の活用、ハザードマップの確認、非常持ち出し品の用意などを呼びかけています。台風や降水量が例年あまり多くない地域でも日頃から備えておくことが重要です。</p>
+                <p class="small">降水量データは<a href="http://www.jma.go.jp/jma/menu/menureport.html" target="_blank">気象庁</a>よりスクレイピングで取得。グラフィックの描画はUBERの提供するオープンソースのWebGLフレームワーク<a href="https://deck.gl/#/" target="_blank">Deck.GL</a>を使った。地図タイルは<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>の全国最新写真（シームレス）を使用。各種アイコンは<a href="https://material.io/resources/icons/?style=baseline" target="_blank">Material DesignのIcons</a>から。</p>
+                <p class="small">制作：<a href="https://toyokeizai.net/list/author/%E8%8D%BB%E5%8E%9F_%E5%92%8C%E6%A8%B9" target="_blank">荻原 和樹</a>（東洋経済オンライン編集部）</p>
+              </section>
+              <section class="tooltip">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>観測地点</th>
+                      <th>日付</th>
+                      <th>降水量</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <h5>日別（0-24時）降水量の推移</h5>
+                <div id="tooltip-chart"></div>
+              </section>
+              <section class="d01">
+                <h4>九州南部豪雨</h4>
+                <p>九州南部では、6月末から7月初頭にかけて、停滞した梅雨前線が活発化したことによる豪雨が発生しました。熊本県、鹿児島県、宮崎県では合計180万人以上に避難指示や避難勧告が発令され、鹿児島県では死者が2名、5名が重軽傷を負いました。7月3日には鹿児島県の吉ケ別府では1日降水量が460mmに達し、宮崎県のえびのでは6月28日から7月5日までの総降水量が1000mmを超えるなど、記録的な大雨となりました。</p>
+              </section>
+              <section class="d02">
+                <h4>台風10号</h4>
+                <p>8月6日にマリアナ諸島で発生した台風10号は、8日に勢力のピークを迎えました。アジア名は「クローサ（Krosa）」。その後は徐々に勢力を落としつつ北上し、15日に広島に上陸しました。台風10号は西日本の太平洋側を中心に強い雨と暴風をもたらし、15日に予定されていた第101回全国高等学校野球選手権大会（夏の甲子園）はすべての試合を中止し、16日に順延となりました。特に雨の影響が強かったのは四国。高知県の魚梁瀬では15日に616mmの猛烈な雨が降りました。</p>
+              </section>
+              <section class="d03">
+                <h4>九州北部豪雨</h4>
+                <p><img src="img/image_article_02.jpeg" /><div class="caption">集中豪雨発生直後の六角川地区（出典：国土地理院「令和元年（2019年）8月の前線に伴う大雨に関する情報」8月29日撮影）</div></p>
+                <p>8月27日から28日にかけて、九州の北部では秋雨前線と湿った空気の影響で記録的な集中豪雨が発生。長崎県平戸市平戸では28日8時までの24時間で434mmの雨が降るなど、佐賀県や長崎県の各地で観測史上1位の降水量を記録しました。政府は28日明け方に佐賀県、福岡県、長崎県に大雨特別警報を発表。死傷者6名、住宅975棟が全壊・半壊しました。</p>
+              </section>
+              <section class="d04">
+                <h4>台風15号</h4>
+                <p>8月末に発生し、「非常に強い」勢力を保ったまま関東に接近した台風15号は、9月9日に千葉市付近に上陸。最大瞬間風速は神津島で58.1メートル、千葉で57.5メートルなど多くの地域で記録的な暴風となりました。一部破損や浸水などをすべて含めた住宅被害は7万棟に上りました。また、千葉県内では台風15号により送電塔や電柱が倒れ、神奈川県なども含めて約93万戸が停電しました。市原市にあるゴルフ練習場の鉄柱が倒れたのもこのときです。</p>
+              </section>
+              <section class="d05">
+                <h4>台風19号</h4>
+                <p>10月6日の発生からわずか2日で「猛烈な勢力」（中心付近の10分間平均最大風速が105ノット以上）に発達した台風19号は、その後「強い勢力」を維持して12日に伊豆半島に上陸。関東地方を中心として、各地で観測史上1位となる強い雨をもたらしました。</p>
+                <p>政府はこの台風を激甚災害、特定非常災害（2018年の西日本豪雨以来、6例目）、大規模災害復興法の非常災害（2016年の熊本地震以来、2例目）に指定。死者・行方不明者は100名を超え、住家被害も全壊・半壊が約2万8000棟、床上・床下浸水が約3万8000棟に上りました。阿武隈川や千曲川など、河川の氾濫や堤防の決壊も相次ぎました。</p>
+                <p><img src="img/image_article_03.jpeg" /><div class="caption">台風19号通過直後の阿武隈川（丸森）地区（出典：国土交通省「令和元年(2019年)台風19号に関する情報」10月13日撮影）</div></p>
+                <p>神奈川県の箱根では12日に922mmの雨が降り、歴代の最高記録を塗り替えました。この日は他にも静岡県の湯ヶ島で689mm、埼玉県の浦山で635mmの降水量が記録され、気象庁が発表する日降水量の歴代ランキングで3カ所がトップ20位に入っています。同様のケースは2011年7月の新潟・福島豪雨だけです。</p>
+              </section>
+              <section class="d06">
+                <h4>千葉県豪雨</h4>
+                <p><img src="img/image_article_04.jpg" /><div class="caption">千葉県豪雨直後の誉田町、土砂崩れの起きた住宅街（出典：国土交通省「令和元年（2019年）10月の低気圧に伴う大雨に関する情報」10月26日撮影、写真を一部拡大）</div></p>
+                <p>台風19号から約2週間後の10月25日から26日にかけて、台風21号や低気圧の影響で局地的に前線が発達し、千葉県を中心に強い雨が降りました。特に25日は千葉県の牛久で285mm、佐倉では248mm、福島県の浪江でも246mmと、平年であればこの時期の約1カ月分に相当する降水量を記録。15の河川が氾濫し、千葉県で11名、福島県で2名の死者が出ました。</p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div id="bottom-block">
+          <div class="button-wrapper">
+            <button class="input-date-button clickable prev month">
+              <img src="img/material-icon-fast.svg" />
+            </button>
+            <div class="button-label">month</div>
+          </div>
+          <div class="button-wrapper">
+            <button class="input-date-button clickable prev day">
+              <img src="img/material-icon-play.svg" />
+            </button>
+            <div class="button-label">day</div>
+          </div>
+          <div id="date-box">2019/10/12</div>
+          <div class="button-wrapper">
+            <button class="input-date-button clickable next day">
+              <img src="img/material-icon-play.svg" />
+            </button>
+            <div class="button-label">day</div>
+          </div>
+          <div class="button-wrapper">
+            <button class="input-date-button clickable next month">
+              <img src="img/material-icon-fast.svg" />
+            </button>
+            <div class="button-label">month</div>
+          </div>
+        </div>
+        <div id="vertical-buttons">
+          <a class="social-button facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2ftoyokeizai%2enet%2fsp%2fvisual%2ftko%2fprecipitation%2f" target="_blank"></a>
+          <a class="social-button twitter"  href="https://twitter.com/intent/tweet?url=https%3a%2f%2ftoyokeizai%2enet%2fsp%2fvisual%2ftko%2fprecipitation%2f" target="_blank"></a>
+          <button id="description-button" class="show"></button>
+        </div>
+        <div id="rotate-buttons">
+          <button type="right"></button>
+          <button type="left"></button>
+          <button type="up"></button>
+          <button type="down"></button>
+        </div>
+			</div>
+    </div>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <script src='https://unpkg.com/deck.gl@5.2.5/deckgl.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script  src="js/script.min.js"></script>
+  </body>
+</html>
